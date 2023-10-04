@@ -1,0 +1,86 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
+| Date         : Wed Feb  1 23:12:56 2023
+| Host         : DESKTOP-R1IN7IV running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Voltimetro_toplevel_control_sets_placed.rpt
+| Design       : Voltimetro_toplevel
+| Device       : xc7a35t
+------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    16 |
+| Unused register locations in slices containing registers |    78 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |            3 |
+|      2 |            1 |
+|      4 |            4 |
+|      5 |            1 |
+|     10 |            4 |
+|     12 |            2 |
+|    16+ |            1 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               2 |            2 |
+| No           | No                    | Yes                    |               3 |            2 |
+| No           | Yes                   | No                     |              80 |           30 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              53 |           14 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-----------------------------------------+----------------------------------------------------------------------------+-------------------------------------------------------------------------------------+------------------+----------------+
+|               Clock Signal              |                                Enable Signal                               |                                   Set/Reset Signal                                  | Slice Load Count | Bel Load Count |
++-----------------------------------------+----------------------------------------------------------------------------+-------------------------------------------------------------------------------------+------------------+----------------+
+|  inst_voltimetro/VGA/ffd_sync2/CLK      |                                                                            |                                                                                     |                1 |              1 |
+|  inst_voltimetro/VGA/ffd_sync/q_o_reg_0 |                                                                            |                                                                                     |                1 |              1 |
+|  inst_voltimetro/VGA/ffd_sync/q_o_reg_0 |                                                                            | rst_i_IBUF                                                                          |                1 |              1 |
+|  inst_voltimetro/VGA/ffd_sync2/CLK      |                                                                            | rst_i_IBUF                                                                          |                1 |              2 |
+|  clk25MHz_gen/inst/clk_out1             | inst_voltimetro/contador_BCD_completo/bcd1__0/ffd3/ena2                    | inst_voltimetro/contador1_ventana/ffd_aux/SR[0]                                     |                1 |              4 |
+|  clk25MHz_gen/inst/clk_out1             | inst_voltimetro/contador_BCD_completo/bcd0/ffd3/ena1                       | inst_voltimetro/contador1_ventana/ffd_aux/SR[0]                                     |                1 |              4 |
+|  clk25MHz_gen/inst/clk_out1             | inst_voltimetro/contador_BCD_completo/bcd2__0/ffd3/ena3                    | inst_voltimetro/contador1_ventana/ffd_aux/SR[0]                                     |                1 |              4 |
+|  clk25MHz_gen/inst/clk_out1             | inst_voltimetro/ffd_externo/enable_BCD                                     | inst_voltimetro/contador1_ventana/ffd_aux/SR[0]                                     |                1 |              4 |
+|  clk25MHz_gen/inst/clk_out1             | pwm_in                                                                     | rst_i_IBUF                                                                          |                1 |              5 |
+|  clk25MHz_gen/inst/clk_out1             |                                                                            | inst_voltimetro/VGA/generador_sync_horizontal/contador_ventana_pixelX/ffd_aux/SR[0] |                5 |             10 |
+|  clk25MHz_gen/inst/clk_out1             | inst_voltimetro/logica/fft_conteo_pantallaX/E[0]                           | inst_voltimetro/logica/contador_pixel_aux_X/reg_contador/rst_cont                   |                3 |             10 |
+|  inst_voltimetro/VGA/ffd_sync2/CLK      |                                                                            | inst_voltimetro/VGA/generador_sync_vertical/contador_ventana_pixelY/ffd_aux/SR[0]   |                2 |             10 |
+|  inst_voltimetro/VGA/ffd_sync/q_o_reg_0 | inst_voltimetro/logica/fft_conteo_pantallaY/E[0]                           | inst_voltimetro/logica/contador_pixel_aux_Y/reg_contador/rst_cont                   |                4 |             10 |
+|  clk25MHz_gen/inst/clk_out1             |                                                                            | inst_voltimetro/contador1_ventana/ffd_aux/SR[0]                                     |                3 |             12 |
+|  clk25MHz_gen/inst/clk_out1             | inst_voltimetro/logica/contador_pixel_aux_X/reg_contador/q_out_reg[0]_0[0] | rst_i_IBUF                                                                          |                2 |             12 |
+|  clk25MHz_gen/inst/clk_out1             |                                                                            | rst_i_IBUF                                                                          |               20 |             48 |
++-----------------------------------------+----------------------------------------------------------------------------+-------------------------------------------------------------------------------------+------------------+----------------+
+
+

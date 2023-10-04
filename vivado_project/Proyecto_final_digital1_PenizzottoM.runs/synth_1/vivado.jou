@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Wed Feb  1 23:11:09 2023
+# Process ID: 14472
+# Current directory: C:/Users/Admin/Desktop/Proyecto_final_digital1_PenizzottoM/Proyecto_final_digital1_PenizzottoM.runs/synth_1
+# Command line: vivado.exe -log Voltimetro_toplevel.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Voltimetro_toplevel.tcl
+# Log file: C:/Users/Admin/Desktop/Proyecto_final_digital1_PenizzottoM/Proyecto_final_digital1_PenizzottoM.runs/synth_1/Voltimetro_toplevel.vds
+# Journal file: C:/Users/Admin/Desktop/Proyecto_final_digital1_PenizzottoM/Proyecto_final_digital1_PenizzottoM.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Voltimetro_toplevel.tcl -notrace

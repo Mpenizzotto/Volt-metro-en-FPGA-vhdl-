@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcsg324-1" LaunchTime="1675303867">
+  <File Type="PWROPT-DCP" Name="Voltimetro_toplevel_pwropt.dcp"/>
+  <File Type="ROUTE-PWR" Name="Voltimetro_toplevel_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="Voltimetro_toplevel.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="Voltimetro_toplevel_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="Voltimetro_toplevel_reports.tcl"/>
+  <File Type="BG-DRC" Name="Voltimetro_toplevel.drc"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Voltimetro_toplevel_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="Voltimetro_toplevel_timing_summary_init.rpt"/>
+  <File Type="OPT-HWDEF" Name="Voltimetro_toplevel.hwdef"/>
+  <File Type="OPT-DCP" Name="Voltimetro_toplevel_opt.dcp"/>
+  <File Type="OPT-DRC" Name="Voltimetro_toplevel_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="Voltimetro_toplevel_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DRC" Name="Voltimetro_toplevel_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="Voltimetro_toplevel_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="Voltimetro_toplevel_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Voltimetro_toplevel_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Voltimetro_toplevel_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Voltimetro_toplevel_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Voltimetro_toplevel_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Voltimetro_toplevel_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Voltimetro_toplevel_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Voltimetro_toplevel_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="Voltimetro_toplevel_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Voltimetro_toplevel_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Voltimetro_toplevel_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Voltimetro_toplevel_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="Voltimetro_toplevel_drc_physopted.rpt"/>
+  <File Type="BG-BIT" Name="Voltimetro_toplevel.bit"/>
+  <File Type="PHYSOPT-TIMING" Name="Voltimetro_toplevel_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Voltimetro_toplevel_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Voltimetro_toplevel_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Voltimetro_toplevel_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Voltimetro_toplevel_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Voltimetro_toplevel_drc_routed.pb"/>
+  <File Type="BITSTR-MSK" Name="Voltimetro_toplevel.msk"/>
+  <File Type="ROUTE-DRC-RPX" Name="Voltimetro_toplevel_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="Voltimetro_toplevel.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Voltimetro_toplevel_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-RBT" Name="Voltimetro_toplevel.rbt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Voltimetro_toplevel_methodology_drc_routed.rpx"/>
+  <File Type="BG-BIN" Name="Voltimetro_toplevel.bin"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Voltimetro_toplevel_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="Voltimetro_toplevel_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Voltimetro_toplevel_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Voltimetro_toplevel_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Voltimetro_toplevel_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Voltimetro_toplevel_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Voltimetro_toplevel_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="Voltimetro_toplevel_incremental_reuse_routed.rpt"/>
+  <File Type="RDI-RDI" Name="Voltimetro_toplevel.vdi"/>
+  <File Type="ROUTE-CLK" Name="Voltimetro_toplevel_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Voltimetro_toplevel_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Voltimetro_toplevel_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Voltimetro_toplevel_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Voltimetro_toplevel_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Voltimetro_toplevel_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="Voltimetro_toplevel.nky"/>
+  <File Type="BITSTR-BMM" Name="Voltimetro_toplevel_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="Voltimetro_toplevel.mmi"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Voltimetro_toplevel.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="Voltimetro_toplevel.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/ip/clk_wiz_0/clk_wiz_0.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Final_adaptadoHW_lasttry_ANDA/Final_adaptadoHW_lasttry.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci"/>
+        <Attr Name="ImportTime" Val="1673831276"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Final_terminado_simOK_videocasiOK_con_adaptarHW/Final_digi1/ffd.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Final_adaptadoHW_lasttry_ANDA/Final_adaptadoHW_lasttry.srcs/sources_1/imports/Final_terminado_simOK_videocasiOK_con_adaptarHW/Final_digi1/ffd.vhd"/>
+        <Attr Name="ImportTime" Val="1673796902"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Final_terminado_simOK_videocasiOK_con_adaptarHW/Final_digi1/Contador_BCD.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Final_adaptadoHW_lasttry_ANDA/Final_adaptadoHW_lasttry.srcs/sources_1/imports/Final_terminado_simOK_videocasiOK_con_adaptarHW/Final_digi1/Contador_BCD.vhd"/>
+        <Attr Name="ImportTime" Val="1673483308"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Final_terminado_simOK_videocasiOK_con_adaptarHW/Final_digi1/Contador_BCD_completo.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Final_adaptadoHW_lasttry_ANDA/Final_adaptadoHW_lasttry.srcs/sources_1/imports/Final_terminado_simOK_videocasiOK_con_adaptarHW/Final_digi1/Contador_BCD_completo.vhd"/>
+        <Attr Name="ImportTime" Val="1673483820"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Final_terminado_simOK_videocasiOK_con_adaptarHW/Final_digi1/registro_n.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Final_adaptadoHW_lasttry_ANDA/Final_adaptadoHW_lasttry.srcs/sources_1/imports/Final_terminado_simOK_videocasiOK_con_adaptarHW/Final_digi1/registro_n.vhd"/>
+        <Attr Name="ImportTime" Val="1673492566"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Final_terminado_simOK_videocasiOK_con_adaptarHW/work/Contador_aux_pixelX.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Final_adaptadoHW_lasttry_ANDA/Final_adaptadoHW_lasttry.srcs/sources_1/imports/Final_terminado_simOK_videocasiOK_con_adaptarHW/work/Contador_aux_pixelX.vhd"/>
+        <Attr Name="ImportTime" Val="1673747160"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Final_terminado_simOK_videocasiOK_con_adaptarHW/work/Contador_aux_pixelY.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Final_adaptadoHW_lasttry_ANDA/Final_adaptadoHW_lasttry.srcs/sources_1/imports/Final_terminado_simOK_videocasiOK_con_adaptarHW/work/Contador_aux_pixelY.vhd"/>
+        <Attr Name="ImportTime" Val="1673753030"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Final_terminado_simOK_videocasiOK_con_adaptarHW/Final_digi1/Contador_binario_330.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Final_adaptadoHW_lasttry_ANDA/Final_adaptadoHW_lasttry.srcs/sources_1/imports/Final_terminado_simOK_videocasiOK_con_adaptarHW/Final_digi1/Contador_binario_330.vhd"/>
+        <Attr Name="ImportTime" Val="1673484004"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Final_terminado_simOK_videocasiOK_con_adaptarHW/work/Contador_pixelX_800.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Final_adaptadoHW_lasttry_ANDA/Final_adaptadoHW_lasttry.srcs/sources_1/imports/Final_terminado_simOK_videocasiOK_con_adaptarHW/work/Contador_pixelX_800.vhd"/>
+        <Attr Name="ImportTime" Val="1673753564"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Final_terminado_simOK_videocasiOK_con_adaptarHW/work/Contador_pixelY_525.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Final_adaptadoHW_lasttry_ANDA/Final_adaptadoHW_lasttry.srcs/sources_1/imports/Final_terminado_simOK_videocasiOK_con_adaptarHW/work/Contador_pixelY_525.vhd"/>
+        <Attr Name="ImportTime" Val="1673754308"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Final_terminado_simOK_videocasiOK_con_adaptarHW/work/fft.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Final_adaptadoHW_lasttry_ANDA/Final_adaptadoHW_lasttry.srcs/sources_1/imports/Final_terminado_simOK_videocasiOK_con_adaptarHW/work/fft.vhd"/>
+        <Attr Name="ImportTime" Val="1673797038"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Final_terminado_simOK_videocasiOK_con_adaptarHW/work/Generador_senial_sync_horizontal.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Final_adaptadoHW_lasttry_ANDA/Final_adaptadoHW_lasttry.srcs/sources_1/imports/Final_terminado_simOK_videocasiOK_con_adaptarHW/work/Generador_senial_sync_horizontal.vhd"/>
+        <Attr Name="ImportTime" Val="1673754716"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Final_terminado_simOK_videocasiOK_con_adaptarHW/work/fft_negado.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Final_adaptadoHW_lasttry_ANDA/Final_adaptadoHW_lasttry.srcs/sources_1/imports/Final_terminado_simOK_videocasiOK_con_adaptarHW/work/fft_negado.vhd"/>
+        <Attr Name="ImportTime" Val="1673822596"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Final_terminado_simOK_videocasiOK_con_adaptarHW/work/Generador_senial_sync_vertical.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Final_adaptadoHW_lasttry_ANDA/Final_adaptadoHW_lasttry.srcs/sources_1/imports/Final_terminado_simOK_videocasiOK_con_adaptarHW/work/Generador_senial_sync_vertical.vhd"/>
+        <Attr Name="ImportTime" Val="1673993705"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Final_terminado_simOK_videocasiOK_con_adaptarHW/work/Logica.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Final_adaptadoHW_lasttry_ANDA/Final_adaptadoHW_lasttry.srcs/sources_1/imports/Final_terminado_simOK_videocasiOK_con_adaptarHW/work/Logica.vhd"/>
+        <Attr Name="ImportTime" Val="1674087511"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Final_terminado_simOK_videocasiOK_con_adaptarHW/work/Mux_basico_2a1_width1.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Final_adaptadoHW_lasttry_ANDA/Final_adaptadoHW_lasttry.srcs/sources_1/imports/Final_terminado_simOK_videocasiOK_con_adaptarHW/work/Mux_basico_2a1_width1.vhd"/>
+        <Attr Name="ImportTime" Val="1673559146"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Final_terminado_simOK_videocasiOK_con_adaptarHW/work/Mux_2a1_datawitdh4.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Final_adaptadoHW_lasttry_ANDA/Final_adaptadoHW_lasttry.srcs/sources_1/imports/Final_terminado_simOK_videocasiOK_con_adaptarHW/work/Mux_2a1_datawitdh4.vhd"/>
+        <Attr Name="ImportTime" Val="1673559336"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Final_terminado_simOK_videocasiOK_con_adaptarHW/work/Mux_8a1_datawitdh4.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Final_adaptadoHW_lasttry_ANDA/Final_adaptadoHW_lasttry.srcs/sources_1/imports/Final_terminado_simOK_videocasiOK_con_adaptarHW/work/Mux_8a1_datawitdh4.vhd"/>
+        <Attr Name="ImportTime" Val="1673559368"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Final_terminado_simOK_videocasiOK_con_adaptarHW/work/ROM.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Final_adaptadoHW_lasttry_ANDA/Final_adaptadoHW_lasttry.srcs/sources_1/imports/Final_terminado_simOK_videocasiOK_con_adaptarHW/work/ROM.vhd"/>
+        <Attr Name="ImportTime" Val="1674157055"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Final_terminado_simOK_videocasiOK_con_adaptarHW/Final_digi1/Registro_completo.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Final_adaptadoHW_lasttry_ANDA/Final_adaptadoHW_lasttry.srcs/sources_1/imports/Final_terminado_simOK_videocasiOK_con_adaptarHW/Final_digi1/Registro_completo.vhd"/>
+        <Attr Name="ImportTime" Val="1673492110"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Final_terminado_simOK_videocasiOK_con_adaptarHW/work/VGA_controller.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Final_adaptadoHW_lasttry_ANDA/Final_adaptadoHW_lasttry.srcs/sources_1/imports/Final_terminado_simOK_videocasiOK_con_adaptarHW/work/VGA_controller.vhd"/>
+        <Attr Name="ImportTime" Val="1673908562"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Prueba_voltaje_fpga/Voltimetro_dac_pwm.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Prueba_voltaje_fpga/Voltimetro_dac_pwm.vhd"/>
+        <Attr Name="ImportTime" Val="1674518212"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Desktop/ffd_negado.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../ffd_negado.vhd"/>
+        <Attr Name="ImportTime" Val="1673817278"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Final_terminado_simOK_videocasiOK_con_adaptarHW/Final_digi1/Voltimetro_hasta_ahora.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Final_adaptadoHW_lasttry_ANDA/Final_adaptadoHW_lasttry.srcs/sources_1/imports/Final_terminado_simOK_videocasiOK_con_adaptarHW/Final_digi1/Voltimetro_hasta_ahora.vhd"/>
+        <Attr Name="ImportTime" Val="1673796128"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Final_terminado_simOK_videocasiOK_con_adaptarHW/Top_level+restricciones/Voltimetro_Esquema_Arty_A7-35_top_level.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Final_adaptadoHW_lasttry_ANDA/Final_adaptadoHW_lasttry.srcs/sources_1/imports/Final_terminado_simOK_videocasiOK_con_adaptarHW/Top_level+restricciones/Voltimetro_Esquema_Arty_A7-35_top_level.vhd"/>
+        <Attr Name="ImportTime" Val="1673831184"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Voltimetro_toplevel"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
